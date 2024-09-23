@@ -27,8 +27,8 @@
                 </button>
     </div>
 </div>
-<section class="bg-neutral-300">
-    <h1 id="therobot" class="text-5xl py-8 text-center font-bold">
+<section class="bg-neutral-700">
+    <h1 id="therobot" class="text-5xl py-8 text-neutral-200 text-center font-bold">
         The Robot
     </h1>
 </section>
