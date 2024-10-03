@@ -10,7 +10,7 @@
 				name: 'John Doe',
 				grade: 12,
 				roles: ['CEO', 'Founder'],
-				image: '/favicon.png'
+				image: '/team/placeholder.png'
 			}}
 		>
 			hello there
@@ -20,7 +20,7 @@
 				name: 'Jane Doe',
 				grade: 12,
 				roles: ['CTO', 'Co-Founder'],
-				image: '/favicon.png'
+				image: '/team/placeholder.png'
 			}}
 		/>
 		<TeamCard
@@ -28,7 +28,7 @@
 				name: 'John Smith',
 				grade: 12,
 				roles: ['Lead Developer'],
-				image: '/favicon.png'
+				image: '/team/placeholder.png'
 			}}
 		/>
 		<TeamCard
@@ -36,7 +36,7 @@
 				name: 'Jane Smith',
 				grade: 12,
 				roles: ['Lead Designer'],
-				image: '/favicon.png'
+				image: '/team/placeholder.png'
 			}}
 		/>
 		<TeamCard
@@ -44,8 +44,17 @@
 				name: 'John Johnson',
 				grade: 12,
 				roles: ['Programming'],
-				image: '/favicon.png'
+				image: '/team/placeholder.png'
 			}}
 		/>
+        <TeamCard
+            props={{
+                name: 'Jane Johnson',
+                grade: 12,
+                roles: ['Website'],
+                image: '/team/placeholder.png'
+            }}>
+        tid    
+        </TeamCard>
 	</div>
 </main>
