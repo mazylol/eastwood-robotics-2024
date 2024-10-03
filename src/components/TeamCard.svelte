@@ -22,8 +22,6 @@
 				return 'bg-green-500';
 			case 'Video':
 				return 'bg-red-500';
-			case 'Engineering Notebook':
-				return 'bg-cyan-500';
 			case 'Driver':
 				return 'bg-gray-500';
 			case 'Spotter':
