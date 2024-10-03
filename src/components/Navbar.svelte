@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Dropdown from './Dropdown.svelte';
-
 	import IconTwitter from '~icons/mdi/twitter';
 	import IconLink from '~icons/ph/link-bold';
 </script>
@@ -43,7 +41,7 @@
 		</div>
 		<a href="/" class="btn btn-ghost text-xl text-white"> Eastwood Robotics </a>
 	</div>
-	<div class="navbar-center hidden lg:flex text-white pr-16">
+	<div class="navbar-center hidden lg:flex text-white">
 		<ul class="menu menu-horizontal px-1 gap-2">
 			<li>
 				<a href="/team">Team</a>
