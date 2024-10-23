@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Img from '@zerodevx/svelte-img';
+
 	type TeamCardProps = {
 		name: string;
 		grade: number;

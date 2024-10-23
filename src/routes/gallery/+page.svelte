@@ -1,8 +1,13 @@
+<script>
+	import domAndLayla from '$lib/assets/gallery/dom-and-layla.jpg';
+	import laylaAndCad from '$lib/assets/gallery/layla-and-cad.jpg';
+</script>
+
 <main title="Gallery">
 	<h1 class="text-center mt-16 text-6xl font-bold">Gallery</h1>
 	<div class="max-w-7xl mx-auto pt-8">
-		<img class="rounded-lg py-4" src="/gallery/dom-and-layla.jpg" alt="hi" />
-		<img class="rounded-lg py-4" src="/gallery/layla-and-cad.jpg" alt="hi" />
+		<img class="rounded-lg py-4" src={domAndLayla} alt="dom and layla working" />
+		<img class="rounded-lg py-4" src={laylaAndCad} alt="layla working on making gears" />
 		<img class="rounded-lg py-4" src="/gallery/IMG_2979.jpg" alt="drawing" />
 		<img class="rounded-lg py-4" src="/gallery/radial.jpg" alt="drawing" />
 		<div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto py-8">

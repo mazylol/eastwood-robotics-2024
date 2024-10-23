@@ -1,5 +1,7 @@
 <script lang="ts">
 	import TeamCard from '../../components/TeamCard.svelte';
+
+	import placeholder from '$lib/assets/team/placeholder.png';
 </script>
 
 <main title="Team">
@@ -10,7 +12,7 @@
 				name: 'Alyson Taylor',
 				grade: 6,
 				roles: ['Construction'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			Building things
@@ -20,7 +22,7 @@
 				name: 'Caleb Abbey',
 				grade: 9,
 				roles: ['Construction'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			I enjoyed the construction of the robot. I love building things and hope to be an engineer one
@@ -31,7 +33,7 @@
 				name: 'Domanic Hollyday',
 				grade: 9,
 				roles: ['Construction', 'Driving', 'Spotting'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			Being able to build a robot, then seeing the robot progress and being able to do more things.
@@ -41,7 +43,7 @@
 				name: 'Nathan Stonerook',
 				grade: 10,
 				roles: ['Construction', 'Engineering Notebook', 'Driving'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			The comradery, and building a robot
@@ -51,7 +53,7 @@
 				name: 'Dylan Hemp',
 				grade: 7,
 				roles: ['Marketing', 'Display'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			I like being able to share ideas with everyone on my team, I also like how we all work
@@ -63,7 +65,7 @@
 				name: 'Layla Newman',
 				grade: 10,
 				roles: ['Construction', 'Engineering Notebook'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			My favorite part of robotics is getting to work on a robot and see it perform well at the
@@ -75,7 +77,7 @@
 				name: 'Trenton Shaner',
 				grade: 10,
 				roles: ['Construction', 'Engineering Notebook', 'Driving', 'Spotting', 'Display'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			Solving problems and building</TeamCard
@@ -85,7 +87,7 @@
 				name: 'Sydney Bell',
 				grade: 10,
 				roles: ['Marketing', 'Engineering Notebook', 'Display'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			My favorite part of robotics is being able to learn about a completely different topic every
@@ -98,7 +100,7 @@
 				name: 'Dominic Pearce',
 				grade: 10,
 				roles: ['Construction', 'Engineering Notebook'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 			>Building the course and building the robot. Another thing is being a mechanic for the robot.</TeamCard
 		>
@@ -107,7 +109,7 @@
 				name: 'Eddie Robinson',
 				grade: 9,
 				roles: ['Construction', 'Driving'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}>Working with a team.</TeamCard
 		>
 		<TeamCard
@@ -115,7 +117,7 @@
 				name: 'Annie Back',
 				grade: 6,
 				roles: ['Construction'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		/>
 		<TeamCard
@@ -123,7 +125,7 @@
 				name: 'Alex Back',
 				grade: 7,
 				roles: ['Marketing'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		/>
 		<TeamCard
@@ -131,7 +133,7 @@
 				name: 'Noah Schuerman',
 				grade: 7,
 				roles: ['Programming', 'Construction'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			Programming and seeing how fast the robot came together.</TeamCard
@@ -141,7 +143,7 @@
 				name: 'Evie Althaus',
 				grade: 8,
 				roles: ['Marketing', 'Video'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}>Having fun with friends.</TeamCard
 		>
 		<TeamCard
@@ -149,7 +151,7 @@
 				name: 'Henry Howard',
 				grade: 11,
 				roles: ['Marketing'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			Learning new things
@@ -159,7 +161,7 @@
 				name: 'Noah Sikora',
 				grade: 10,
 				roles: ['Construction', 'Spotting'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			The competition</TeamCard
@@ -169,7 +171,7 @@
 				name: 'Lauren Ellis',
 				grade: 10,
 				roles: ['Marketing', 'Display'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 			>My favorite part of our robotics program is building my public speaking skills and connecting
 			with like-minded people.
@@ -179,7 +181,7 @@
 				name: 'Nash Stacey',
 				grade: 7,
 				roles: ['Marketing'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			Problem solving</TeamCard
@@ -189,7 +191,7 @@
 				name: 'Scott McKenzie',
 				grade: 9,
 				roles: ['Marketing'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}>Showing the slides to sponsors.</TeamCard
 		>
 		<TeamCard
@@ -197,7 +199,7 @@
 				name: 'Colton Miller',
 				grade: 7,
 				roles: ['Construction', 'Marketing', 'Display', 'T-Shirt'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			Remote control car</TeamCard
@@ -207,7 +209,7 @@
 				name: 'Lexy Smith',
 				grade: 7,
 				roles: ['Construction', 'Driving', 'Spotting'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			My favorite parts of robotics are the actual processes of creating the robot and the course
@@ -218,7 +220,7 @@
 				name: 'Carson Henline',
 				grade: 7,
 				roles: ['Programming', 'Construction', 'Display'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			Being part of a big team that all works together!
@@ -228,7 +230,7 @@
 				name: 'Landon Porter',
 				grade: 12,
 				roles: ['Construction', 'Website', 'Engineering Notebook', 'Display'],
-				image: '/team/placeholder.png'
+				image: placeholder
 			}}
 		>
 			Having fun with all of the people that I have gotten the opportunity to bond with over all of
