@@ -223,5 +223,12 @@
 		>
 			Being part of a big team that all works together!
 		</TeamCard>
+		<TeamCard props={{
+			name: 'Landon Porter',
+			grade: 12,
+			roles: ['Construction', 'Website', 'Engineering Notebook', 'Display'],
+			image: '/team/placeholder.png'
+		}}>
+		Having fun with all of the people that I have gotten the opportunity to bond with over all of these years while we all work toward a common goal. I also like to make the website, hello there!</TeamCard>
 	</div>
 </main>
