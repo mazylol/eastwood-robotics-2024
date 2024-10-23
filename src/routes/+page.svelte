@@ -20,6 +20,18 @@
 		</button>
 	</div>
 </div>
-<section class="bg-neutral-700">
-	<h1 id="therobot" class="text-5xl py-8 text-neutral-200 text-center font-bold">The Robot</h1>
+<section class="bg-neutral-700 xs:max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-7xl mx-auto">
+	<h1 id="therobot" class="text-5xl py-8 text-neutral-200 text-center font-bold">Who We Are</h1>
+	<img
+		src="/home/team_and_robot.jpg"
+		alt="Team and the robot"
+		class="mx-auto rounded-xl drop-shadow-xl"
+	/>
+	<p class="bg-neutral-600 rounded-xl p-4 mt-8 text-2xl text-neutral-200 mx-auto">
+		We are Eastwood Robotics. A group of like-minded individuals who have a hunger for learning and
+		experimentation. Every year we build a robot to compete at the Falcon BEST held right in our own
+		backyard. We strive to be the best but most importantly, expand our knowledge in robotics. Our
+		club includes students from 6th all the way to 12th grade. We can find a place where anyone can
+		shine.
+	</p>
 </section>
