@@ -20,11 +20,15 @@
 				return 'bg-blue-500';
 			case 'Marketing':
 				return 'bg-green-500';
+			case 'Display':
+				return 'bg-orange-500';
+			case 'Engineering Notebook':
+				return 'bg-teal-500';
 			case 'Video':
 				return 'bg-red-500';
-			case 'Driver':
+			case 'Driving':
 				return 'bg-gray-500';
-			case 'Spotter':
+			case 'Spotting':
 				return 'bg-lime-500';
 			case 'T-Shirt':
 				return 'bg-rose-500';
