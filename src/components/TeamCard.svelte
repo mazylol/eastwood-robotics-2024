@@ -5,7 +5,7 @@
 		name: string;
 		grade: number;
 		roles: string[];
-		image: string;
+		image: any;
 	};
 
 	export let props: TeamCardProps;
@@ -39,7 +39,7 @@
 </script>
 
 <div class="flex flex-col items-center p-4 bg-neutral-800 rounded-3xl">
-	<img src={props.image} alt={props.name} class="rounded-full w-32 h-32" />
+	<Img src={props.image} alt={props.name} class="rounded-full w-32 h-32" />
 	<h2 class="text-2xl font-bold mt-4">
 		{props.name}
 		<span class="ml-4 bg-primary p-1 rounded-md text-gray-200">
