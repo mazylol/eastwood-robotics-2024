@@ -7,11 +7,6 @@
 </script>
 
 <main title="Team">
-	<button
-		on:click={() => {
-			console.log(src);
-		}}>press</button
-	>
 	<h1 class="text-center mt-16 text-6xl font-bold">The Team</h1>
 	<div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 mx-4 my-4 mt-16">
 		<TeamCard
@@ -244,5 +239,51 @@
 			these years while we all work toward a common goal. I also like to make the website, hello
 			there!</TeamCard
 		>
+		<TeamCard
+			props={{
+				name: 'William Stark',
+				grade: 10,
+				roles: ['Construction', 'Engineering Notebook', 'Driving'],
+				image: src
+			}}
+			>Driving the robot with my friends and learning how to design and make the robot.
+		</TeamCard>
+		<TeamCard
+			props={{
+				name: 'Ethan Headley',
+				grade: 9,
+				roles: ['Construction'],
+				image: src
+			}}
+			>My favorite part of robotics has been building the practice course and our robot. I also
+			enjoy seeing how everyone's hard work comes together in our final product.</TeamCard
+		>
+		<TeamCard
+			props={{
+				name: 'Calhoun Sandwisch',
+				grade: 6,
+				roles: ['Marketing'],
+				image: src
+			}}
+			>Working on all the marketing projects.
+		</TeamCard>
+		<TeamCard
+			props={{
+				name: 'Brayden Barnhart',
+				grade: 10,
+				roles: ['Construction', 'Driving'],
+				image: src
+			}}
+			>Working on all the marketing projects.
+		</TeamCard>
+		<TeamCard
+			props={{
+				name: 'Emily Ernsthausen',
+				grade: 6,
+				roles: ['Construction'],
+				image: src
+			}}
+			>Learning about the process of building a robot for competition
+		</TeamCard>
 	</div>
 </main>
