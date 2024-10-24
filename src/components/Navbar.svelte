@@ -33,7 +33,7 @@
 							<a href="/team">Team</a>
 						</li>
 						<li>
-							<a href="/gallery">Photo Gallery</a>
+							<a href="/gallery">Gallery</a>
 						</li>
 					</ul>
 				</li>
