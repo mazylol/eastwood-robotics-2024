@@ -16,6 +16,13 @@
 		</TeamCard>
 		<TeamCard
 			props={{
+				name: 'Layla Newman',
+				grade: 10,
+				roles: ['Construction'],
+			}}
+		/>
+		<TeamCard
+			props={{
 				name: 'Caleb Abbey',
 				grade: 9,
 				roles: ['Construction']
