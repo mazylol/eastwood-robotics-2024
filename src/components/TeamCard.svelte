@@ -1,20 +1,14 @@
 <script lang="ts">
-	import Img from '@zerodevx/svelte-img';
-	import placeholder from "$lib/assets/team/placeholder.png?as=run";
-
-	import laylaNewman from "$lib/assets/team/layla-newman.jpg?as=run"
+	import type { Image } from '$lib/image';
 
 	type TeamCardProps = {
 		name: string;
 		grade: number;
 		roles: string[];
-		image?: any;
+		image?: Image;
 	};
 
 	export let props: TeamCardProps;
-
-
-	let peopleImages: Map<string, any> = new Map;
 
 	props.roles = props.roles.sort();
 
@@ -46,12 +40,9 @@
 
 <div class="flex flex-col items-center p-4 bg-neutral-800 rounded-3xl">
 	{#if props.image}
-		<Img
-			src={props.image}
-			alt={props.name}
-		/>
+		<enhanced:img src={props.image} alt={props.name} />
 	{:else}
-		<Img src={placeholder} alt={props.name} class="" />
+		<enhanced:img src="$lib/assets/team/placeholder.png" alt="An alt text" />
 	{/if}
 	<h2 class="text-2xl font-bold mt-4">
 		{props.name}
