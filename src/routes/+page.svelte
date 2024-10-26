@@ -5,7 +5,7 @@
 	import teamAndRobot from '$lib/assets/home/team_and_robot.jpg?enhanced';
 </script>
 
-<div class="hero min-h-screen" style="background-image: url(/moon.jpg);">
+<section class="hero min-h-screen" style="background-image: url(/moon.jpg);">
 	<div class="hero-overlay bg-opacity-50"></div>
 	<div class="max-w-md">
 		<h1 class="mb-5 text-5xl font-bold text-white">Eastwood Robotics</h1>
@@ -21,7 +21,7 @@
 			<MdiArrowDown class="text-white w-8 animate-bounce mt-2" />
 		</button>
 	</div>
-</div>
+</section>
 <section class="bg-neutral-700 xs:max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-7xl mx-auto">
 	<h1 id="therobot" class="text-5xl py-8 text-neutral-200 text-center font-bold">Who We Are</h1>
 	<enhanced:img

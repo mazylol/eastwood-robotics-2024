@@ -1,14 +1,7 @@
 <script lang="ts">
-	import type { Image } from '$lib/image';
+	import type { TeamMember } from '$lib/team';
 
-	type TeamCardProps = {
-		name: string;
-		grade: number;
-		roles: string[];
-		image?: Image;
-	};
-
-	export let props: TeamCardProps;
+	export let props: TeamMember;
 
 	props.roles = props.roles.sort();
 
@@ -60,7 +53,7 @@
 		{/each}
 	</ul>
 	<hr class="my-4 border-b-2 border-gray-500" />
-	{#if $$slots.default}
-		<p><b>Favorite Part: </b><slot class="text-gray-700" /></p>
+	{#if props.favoritePart}
+		<p><b>Favorite Part: </b>{props.favoritePart}</p>
 	{/if}
 </div>
