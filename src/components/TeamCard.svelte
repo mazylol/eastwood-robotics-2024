@@ -33,7 +33,7 @@
 
 <div class="flex flex-col items-center p-4 bg-neutral-800 rounded-3xl">
 	{#if props.image}
-		<enhanced:img src={props.image} alt={props.name} />
+		<enhanced:img src={props.image} alt={props.name} class="rounded-3xl" />
 	{:else}
 		<enhanced:img src="$lib/assets/team/placeholder.png" alt="An alt text" />
 	{/if}

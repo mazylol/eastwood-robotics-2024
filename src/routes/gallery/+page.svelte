@@ -18,7 +18,7 @@
 		/>
 		<enhanced:img
 			class="rounded-lg my-4"
-			src="/src/lib/assets/gallery/IMG_2979.jpg"
+			src="/src/lib/assets/gallery/radial.jpg"
 			alt="someone using the radial arm saw"
 		/>
 		<div class="grid sm:grid-cols-1 md:grid-cols-2 mx-auto py-8">
