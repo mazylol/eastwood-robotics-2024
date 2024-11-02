@@ -224,12 +224,6 @@
 			image: images['/src/lib/assets/team/Hawn_Elizabeth_177.jpg']
 		},
 		{
-			name: 'Luke Marlowe',
-			grade: 10,
-			roles: ['Construction'],
-			image: images['/src/lib/assets/team/Marlowe_Luke_268.jpg']
-		},
-		{
 			name: 'Addison Goolet',
 			grade: 10,
 			roles: ['Construction', 'Display', 'Marketing'],
