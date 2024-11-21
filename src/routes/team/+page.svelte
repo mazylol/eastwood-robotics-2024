@@ -8,7 +8,7 @@
 		{
 			name: 'Shawn Miller',
 			grade: 10,
-			roles: ['Construction'],
+			roles: ['Construction', 'Engineering Notebook'],
 			image: images['/src/lib/assets/team/Miller_Shawn_294.jpg']
 		},
 		{
