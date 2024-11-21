@@ -226,13 +226,13 @@
 		{
 			name: 'Addison Goolet',
 			grade: 10,
-			roles: ['Construction', 'Display', 'Marketing'],
+			roles: ['Construction', 'Display', 'Marketing', 'Engineering Notebook'],
 			image: images['/src/lib/assets/team/Goodlet_Addison_159.jpg']
 		},
 		{
 			name: 'Antonio Franco',
 			grade: 10,
-			roles: ['Construction'],
+			roles: ['Construction', 'Engineering Notebook'],
 			image: images['/src/lib/assets/team/Franco_Antonio_143.jpg']
 		},
 		{
